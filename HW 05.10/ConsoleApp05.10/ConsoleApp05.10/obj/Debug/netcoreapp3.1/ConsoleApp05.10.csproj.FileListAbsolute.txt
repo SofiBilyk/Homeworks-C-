@@ -1,0 +1,14 @@
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\bin\Debug\netcoreapp3.1\ConsoleApp05.10.exe
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\bin\Debug\netcoreapp3.1\ConsoleApp05.10.deps.json
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\bin\Debug\netcoreapp3.1\ConsoleApp05.10.runtimeconfig.json
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\bin\Debug\netcoreapp3.1\ConsoleApp05.10.runtimeconfig.dev.json
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\bin\Debug\netcoreapp3.1\ConsoleApp05.10.dll
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\bin\Debug\netcoreapp3.1\ConsoleApp05.10.pdb
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.csproj.AssemblyReference.cache
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.AssemblyInfoInputs.cache
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.AssemblyInfo.cs
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.csproj.CoreCompileInputs.cache
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.dll
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.pdb
+D:\University\Programming\С#\ConsoleApp05.10\ConsoleApp05.10\obj\Debug\netcoreapp3.1\ConsoleApp05.10.genruntimeconfig.cache

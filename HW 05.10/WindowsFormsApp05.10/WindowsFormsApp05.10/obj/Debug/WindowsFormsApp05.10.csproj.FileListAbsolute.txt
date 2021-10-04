@@ -1,0 +1,10 @@
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\bin\Debug\WindowsFormsApp05.10.exe.config
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\bin\Debug\WindowsFormsApp05.10.exe
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\bin\Debug\WindowsFormsApp05.10.pdb
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05.10.csproj.AssemblyReference.cache
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05._10.Form1.resources
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05._10.Properties.Resources.resources
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05.10.csproj.GenerateResource.cache
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05.10.csproj.CoreCompileInputs.cache
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05.10.exe
+C:\Users\Sonia\source\repos\WindowsFormsApp05.10\WindowsFormsApp05.10\obj\Debug\WindowsFormsApp05.10.pdb
