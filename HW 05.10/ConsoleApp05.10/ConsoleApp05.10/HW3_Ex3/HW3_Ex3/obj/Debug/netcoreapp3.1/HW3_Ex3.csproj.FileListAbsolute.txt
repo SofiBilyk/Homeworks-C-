@@ -1,0 +1,14 @@
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.csproj.AssemblyReference.cache
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.AssemblyInfoInputs.cache
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.AssemblyInfo.cs
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.csproj.CoreCompileInputs.cache
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\bin\Debug\netcoreapp3.1\HW3_Ex3.exe
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\bin\Debug\netcoreapp3.1\HW3_Ex3.deps.json
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\bin\Debug\netcoreapp3.1\HW3_Ex3.runtimeconfig.json
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\bin\Debug\netcoreapp3.1\HW3_Ex3.runtimeconfig.dev.json
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\bin\Debug\netcoreapp3.1\HW3_Ex3.dll
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\bin\Debug\netcoreapp3.1\HW3_Ex3.pdb
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.dll
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.pdb
+D:\University\Programming\HW GITHUB\HW 05.10\ConsoleApp05.10\ConsoleApp05.10\HW3_Ex3\HW3_Ex3\obj\Debug\netcoreapp3.1\HW3_Ex3.genruntimeconfig.cache
