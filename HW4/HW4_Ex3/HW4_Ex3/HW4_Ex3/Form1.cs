@@ -25,7 +25,7 @@ namespace HW4_Ex3
             angle = double.Parse(textBox3.Text);
             if (sideA == sideB)
             { 
-                Issosceles triangle = new Issosceles(sideA, sideB, angle);
+                Issosceles triangle = new Issosceles(sideA, angle);
                 label5.Text = "The triangle is Isosceles";
                 textBox4.Text = triangle.Find();
             }
@@ -33,7 +33,7 @@ namespace HW4_Ex3
             {
                 if (angle == 90)
                 { 
-                    Rectangular triangle = new Rectangular(sideA, sideB, angle);
+                    Rectangular triangle = new Rectangular(sideA, sideB);
                     label5.Text = "The triangle is Rectangular";
                     textBox4.Text = triangle.Find();
                 }
@@ -105,10 +105,10 @@ namespace HW4_Ex3
     }
     public class Issosceles : Triangle
     {
-        public Issosceles(double sideA, double sideB, double angle)
+        public Issosceles(double sideA, double angle)
         {
             a = sideA;
-            b = sideB;
+            b = sideA;
             an = angle;
         }
         override public double Square()
@@ -120,11 +120,11 @@ namespace HW4_Ex3
 
     public class Rectangular : Triangle
     {
-        public Rectangular(double sideA, double sideB, double angle)
+        public Rectangular(double sideA, double sideB)
         {
             a = sideA;
             b = sideB;
-            an = angle;
+            an = 90;
         }
        
     }

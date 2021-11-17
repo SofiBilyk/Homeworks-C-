@@ -100,7 +100,6 @@ namespace HW4_Ex1
             this.textBox1.Size = new System.Drawing.Size(55, 22);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "3";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -109,7 +108,6 @@ namespace HW4_Ex1
             this.textBox2.Size = new System.Drawing.Size(55, 22);
             this.textBox2.TabIndex = 6;
             this.textBox2.Text = "4";
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -118,7 +116,6 @@ namespace HW4_Ex1
             this.textBox3.Size = new System.Drawing.Size(55, 22);
             this.textBox3.TabIndex = 7;
             this.textBox3.Text = "5";
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -126,7 +123,6 @@ namespace HW4_Ex1
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(265, 22);
             this.textBox4.TabIndex = 8;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
@@ -134,7 +130,7 @@ namespace HW4_Ex1
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(265, 22);
             this.textBox5.TabIndex = 9;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            
             // 
             // textBox6
             // 
@@ -142,7 +138,6 @@ namespace HW4_Ex1
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(265, 22);
             this.textBox6.TabIndex = 10;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox7
             // 
@@ -150,7 +145,6 @@ namespace HW4_Ex1
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(265, 22);
             this.textBox7.TabIndex = 11;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // label4
             // 

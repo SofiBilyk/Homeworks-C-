@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sonia\\source\\repos\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj": {}
+    "D:\\University\\Programming\\HW GITHUB\\HW 05.10\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sonia\\source\\repos\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj": {
+    "D:\\University\\Programming\\HW GITHUB\\HW 05.10\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sonia\\source\\repos\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj",
+        "projectUniqueName": "D:\\University\\Programming\\HW GITHUB\\HW 05.10\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj",
         "projectName": "WpfApp05.10",
-        "projectPath": "C:\\Users\\Sonia\\source\\repos\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj",
+        "projectPath": "D:\\University\\Programming\\HW GITHUB\\HW 05.10\\WpfApp05.10\\WpfApp05.10\\WpfApp05.10.csproj",
         "packagesPath": "C:\\Users\\Sonia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sonia\\source\\repos\\WpfApp05.10\\WpfApp05.10\\obj\\",
+        "outputPath": "D:\\University\\Programming\\HW GITHUB\\HW 05.10\\WpfApp05.10\\WpfApp05.10\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sonia\\AppData\\Roaming\\NuGet\\NuGet.Config",

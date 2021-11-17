@@ -1,0 +1,14 @@
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\bin\Debug\netcoreapp3.1\HW3_Ex2.exe
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\bin\Debug\netcoreapp3.1\HW3_Ex2.deps.json
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\bin\Debug\netcoreapp3.1\HW3_Ex2.runtimeconfig.json
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\bin\Debug\netcoreapp3.1\HW3_Ex2.runtimeconfig.dev.json
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\bin\Debug\netcoreapp3.1\HW3_Ex2.dll
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\bin\Debug\netcoreapp3.1\HW3_Ex2.pdb
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.csproj.AssemblyReference.cache
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.AssemblyInfoInputs.cache
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.AssemblyInfo.cs
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.csproj.CoreCompileInputs.cache
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.dll
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.pdb
+D:\University\Programming\HW GITHUB\HW 05.10\HW3_Ex2\HW3_Ex2\obj\Debug\netcoreapp3.1\HW3_Ex2.genruntimeconfig.cache
