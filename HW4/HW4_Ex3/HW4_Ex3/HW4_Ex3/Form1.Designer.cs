@@ -83,7 +83,6 @@ namespace HW4_Ex3
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(256, 22);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -91,7 +90,6 @@ namespace HW4_Ex3
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(256, 22);
             this.textBox2.TabIndex = 5;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -99,7 +97,6 @@ namespace HW4_Ex3
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(256, 22);
             this.textBox3.TabIndex = 6;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -107,7 +104,6 @@ namespace HW4_Ex3
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(537, 22);
             this.textBox4.TabIndex = 7;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // button1
             // 
@@ -145,7 +141,7 @@ namespace HW4_Ex3
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -122,7 +122,6 @@ namespace HW4_Ex2
             this.label2.Size = new System.Drawing.Size(16, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "_";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -139,7 +138,6 @@ namespace HW4_Ex2
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(664, 22);
             this.textBox1.TabIndex = 9;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -147,7 +145,6 @@ namespace HW4_Ex2
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(368, 22);
             this.textBox2.TabIndex = 10;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -155,7 +152,6 @@ namespace HW4_Ex2
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(368, 22);
             this.textBox3.TabIndex = 11;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -163,7 +159,6 @@ namespace HW4_Ex2
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(368, 22);
             this.textBox4.TabIndex = 12;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // label4
             // 

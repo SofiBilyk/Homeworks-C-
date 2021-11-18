@@ -13,6 +13,29 @@ namespace HW4_Ex3
     public partial class Form1 : Form
     {
         public double sideA, sideB, angle;
+        public int Try(string a, string b, string c)
+        {
+            bool indicate = double.TryParse(a, out sideA);
+            if (indicate == false || sideA <= 0)
+            {
+                return 0;
+            }
+            indicate = double.TryParse(b, out sideB);
+            if (indicate == false || sideB <= 0)
+            {
+                return 0;
+            }
+            indicate = double.TryParse(c, out angle);
+            if (indicate == false || angle <= 0)
+            {
+                return 0;
+            }
+            if (angle >= 180 || angle <= 0)
+            {
+                return 0;
+            }
+            return 1;
+        }
         public Form1()
         {
             InitializeComponent();
@@ -20,57 +43,37 @@ namespace HW4_Ex3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            sideA = double.Parse(textBox1.Text);
-            sideB = double.Parse(textBox2.Text);
-            angle = double.Parse(textBox3.Text);
-            if (sideA == sideB)
-            { 
-                Issosceles triangle = new Issosceles(sideA, angle);
-                label5.Text = "The triangle is Isosceles";
-                textBox4.Text = triangle.Find();
-            }
+            textBox4.Text = "";
+            if (Try(textBox1.Text, textBox2.Text, textBox3.Text) == 0)
+                label5.Text = "Write correct data";
             else
             {
-                if (angle == 90)
-                { 
-                    Rectangular triangle = new Rectangular(sideA, sideB);
-                    label5.Text = "The triangle is Rectangular";
+                if (sideA == sideB)
+                {
+                    Issosceles triangle = new Issosceles(sideA, angle);
+                    label5.Text = "The triangle is Isosceles";
                     textBox4.Text = triangle.Find();
                 }
                 else
-                { 
-                    Usual triangle = new Usual(sideA, sideB, angle);
-                    label5.Text = "The triangle is Usual";
-                    textBox4.Text = triangle.Find();
+                {
+                    if (angle == 90)
+                    {
+                        Rectangular triangle = new Rectangular(sideA, sideB);
+                        label5.Text = "The triangle is Rectangular";
+                        textBox4.Text = triangle.Find();
+                    }
+                    else
+                    {
+                        Usual triangle = new Usual(sideA, sideB, angle);
+                        label5.Text = "The triangle is Usual";
+                        textBox4.Text = triangle.Find();
+                    }
                 }
             }
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 
     abstract public class Triangle
@@ -78,7 +81,7 @@ namespace HW4_Ex3
        public double a, b, an;
         virtual public double Square() 
         {
-            return a*b / 2;
+            return 0.5 * a * b * Math.Sin(an * Math.PI / 180);
         }
         virtual public double Perimetr() 
         {
@@ -97,10 +100,6 @@ namespace HW4_Ex3
             b = sideB;
             an = angle;
         }
-        override public double Square()
-        {
-            return 0.5 * a * b * Math.Sin(an * Math.PI / 180);
-        }
 
     }
     public class Issosceles : Triangle
@@ -115,7 +114,10 @@ namespace HW4_Ex3
         {
             return 0.5 * a * a * Math.Sin(an * Math.PI / 180);
         }
-        
+        virtual public double Perimetr()
+        {
+            return a + a + Math.Sqrt(a * a + a * a - 2 * a * a * Math.Cos(an * Math.PI / 180));
+        }
     }
 
     public class Rectangular : Triangle
@@ -126,6 +128,7 @@ namespace HW4_Ex3
             b = sideB;
             an = 90;
         }
-       
+        virtual public double Square() => a * b / 2;
+        virtual public double Perimetr() => a + b + Math.Sqrt(a * a + b * b);
     }
 }

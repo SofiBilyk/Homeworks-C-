@@ -7,4 +7,4 @@ D:\University\Programming\HW GITHUB\HW4\HW4_Ex1\HW4_Ex1\obj\Debug\HW4_Ex1.csproj
 D:\University\Programming\HW GITHUB\HW4\HW4_Ex1\HW4_Ex1\obj\Debug\HW4_Ex1.csproj.CoreCompileInputs.cache
 D:\University\Programming\HW GITHUB\HW4\HW4_Ex1\HW4_Ex1\obj\Debug\HW4_Ex1.exe
 D:\University\Programming\HW GITHUB\HW4\HW4_Ex1\HW4_Ex1\obj\Debug\HW4_Ex1.pdb
-D:\University\Programming\HW GITHUB\HW4\HW4_Ex1\HW4_Ex1\obj\Debug\HW4_Ex1.Triangle.resources
+D:\University\Programming\HW GITHUB\HW4\HW4_Ex1\HW4_Ex1\obj\Debug\HW4_Ex1.Form2.resources
