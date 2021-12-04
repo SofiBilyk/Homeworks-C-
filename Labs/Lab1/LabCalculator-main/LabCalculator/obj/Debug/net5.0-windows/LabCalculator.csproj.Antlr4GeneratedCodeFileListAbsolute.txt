@@ -1,0 +1,6 @@
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorLexer.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorParser.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorListener.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorBaseListener.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorVisitor.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorBaseVisitor.cs

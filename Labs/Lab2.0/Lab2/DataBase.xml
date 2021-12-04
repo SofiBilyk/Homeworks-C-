@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SportDataBase>
+	
+	<section ID = "1" SECTION = "Pool">
+		<visitor VISITOR = "Student">
+			<sportsman ID = "1"
+					   NAME = "Ann"
+					   SURNAME = "Johnson"
+					   FACULTY = "122"
+					   SCHEDULE = "Monday"
+					   COMPETITIONS = "12.10.21">Sport1
+			</sportsman>
+			<sportsman ID = "2"
+					   NAME = "John"
+					   SURNAME = "McCallen"
+					   FACULTY = "132"
+					   SCHEDULE = "Wednesday"
+					   COMPETITIONS = "23.09.21">Sport2
+			</sportsman>
+		</visitor>
+			
+			
+		<visitor VISITOR = "Professor">
+			<sportsman ID = "1"
+					   NAME = "Helen"
+					   SURNAME = "Klein"
+					   FACULTY = "145"
+					   SCHEDULE = "Friday"
+					   COMPETITIONS = "-">Sport3
+			</sportsman>
+			<sportsman ID = "2"
+					   NAME = "Mike"
+					   SURNAME = "SorfVold"
+					   FACULTY = "542"
+					   SCHEDULE = "Monday"
+					   COMPETITIONS = "23.09.21">Sport4
+			</sportsman>
+		</visitor>
+	</section>
+	
+	<section ID = "2" SECTION = "Box">
+		<visitor VISITOR = "Student">
+			<sportsman ID = "1"
+					   NAME = "Regina"
+					   SURNAME = "Malto"
+					   FACULTY = "122"
+					   SCHEDULE = "Wednesday"
+					   COMPETITIONS = "23.09.21">Sport5
+			</sportsman>
+			<sportsman ID = "2"
+					   NAME = "Nik"
+					   SURNAME = "Nilson"
+					   FACULTY = "132"
+					   SCHEDULE = "Sutarday"
+					   COMPETITIONS = "23.09.21">Sport6
+			</sportsman>
+		</visitor>
+		
+		
+		<visitor VISITOR = "Professor">
+			<sportsman ID = "1"
+					   NAME = "Greg"
+					   SURNAME = "House"
+					   FACULTY = "132"
+					   SCHEDULE = "Monday"
+					   COMPETITIONS = "-">Sport7
+			</sportsman>
+			<sportsman ID = "2"
+					   NAME = "Dima"
+					   SURNAME = "Norman"
+					   FACULTY = "122"
+					   SCHEDULE = "Friday"
+					   COMPETITIONS = "12.10.21">Sport8
+			</sportsman>
+		</visitor>
+	</section>
+	
+	<section ID = "3" SECTION = "Dance">
+		<visitor VISITOR = "Student">
+			<sportsman ID = "1"
+					   NAME = "Nina"
+					   SURNAME = "Silkon"
+					   FACULTY = "122"
+					   SCHEDULE = "Friday"
+					   COMPETITIONS = "12.10.21">Sport9
+			</sportsman>
+			<sportsman ID = "2"
+					   NAME = "Mary"
+					   SURNAME = "Star"
+					   FACULTY = "145"
+					   SCHEDULE = "Monday"
+					   COMPETITIONS = "23.09.21">Sport10
+			</sportsman>
+		</visitor>
+		
+		
+		<visitor VISITOR = "Professor">
+			<sportsman ID = "1"
+					   NAME = "Viktoria"
+					   SURNAME = "Collins"
+					   FACULTY = "132"
+					   SCHEDULE = "Wednesday"
+					   COMPETITIONS = "23.09.21">Sport11
+			</sportsman>
+			<sportsman ID = "2"
+					   NAME = "Lisa"
+					   SURNAME = "Kaddey"
+					   FACULTY = "122"
+					   SCHEDULE = "Friday"
+					   COMPETITIONS = "12.10.21">Sport12
+			</sportsman>
+		</visitor>
+	</section>
+	
+</SportDataBase>

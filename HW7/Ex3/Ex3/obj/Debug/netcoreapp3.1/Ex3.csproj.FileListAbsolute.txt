@@ -1,0 +1,14 @@
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\bin\Debug\netcoreapp3.1\Ex3.exe
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\bin\Debug\netcoreapp3.1\Ex3.deps.json
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\bin\Debug\netcoreapp3.1\Ex3.runtimeconfig.json
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\bin\Debug\netcoreapp3.1\Ex3.runtimeconfig.dev.json
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\bin\Debug\netcoreapp3.1\Ex3.dll
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\bin\Debug\netcoreapp3.1\Ex3.pdb
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.csproj.AssemblyReference.cache
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.AssemblyInfoInputs.cache
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.AssemblyInfo.cs
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.csproj.CoreCompileInputs.cache
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.dll
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.pdb
+D:\University\Programming\HW GITHUB\HW7\Ex3\Ex3\obj\Debug\netcoreapp3.1\Ex3.genruntimeconfig.cache

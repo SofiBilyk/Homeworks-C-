@@ -1,0 +1,14 @@
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\bin\Debug\netcoreapp3.1\Ex4.exe
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\bin\Debug\netcoreapp3.1\Ex4.deps.json
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\bin\Debug\netcoreapp3.1\Ex4.runtimeconfig.json
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\bin\Debug\netcoreapp3.1\Ex4.runtimeconfig.dev.json
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\bin\Debug\netcoreapp3.1\Ex4.dll
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\bin\Debug\netcoreapp3.1\Ex4.pdb
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.csproj.AssemblyReference.cache
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.AssemblyInfoInputs.cache
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.AssemblyInfo.cs
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.csproj.CoreCompileInputs.cache
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.dll
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.pdb
+D:\University\Programming\HW GITHUB\HW7\Ex4\Ex4\obj\Debug\netcoreapp3.1\Ex4.genruntimeconfig.cache

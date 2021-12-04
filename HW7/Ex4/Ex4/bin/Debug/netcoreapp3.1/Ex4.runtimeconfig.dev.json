@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Sonia\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Sonia\\.nuget\\packages"
+    ]
+  }
+}

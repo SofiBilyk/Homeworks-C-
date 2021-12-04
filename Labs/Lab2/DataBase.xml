@@ -1,0 +1,550 @@
+/*using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml.Xsl;
+
+namespace Lab2
+{
+    public partial class Form1 : Form
+    {
+        string path = "DataBase.xml";
+        List<Sportsman> result = new List<Sportsman>();
+
+        private Sportsman OurSportsman()
+        {
+            string[] info = new string[6];
+            if (checkBox1.Checked) info[0] = Convert.ToString(checkBox1.Text);
+            if (checkBox2.Checked) info[1] = Convert.ToString(checkBox2.Text);
+            if (checkBox3.Checked) info[2] = Convert.ToString(checkBox3.Text);
+            if (checkBox4.Checked) info[3] = Convert.ToString(checkBox4.Text);
+            if (checkBox5.Checked) info[4] = Convert.ToString(checkBox5.Text);
+            if (checkBox6.Checked) info[5] = Convert.ToString(checkBox6.Text);
+            if (checkBox7.Checked) info[6] = Convert.ToString(checkBox7.Text);
+            Sportsman IdealSportsman = new Sportsman(info);
+            return IdealSportsman;
+
+        }
+
+        private void Output(List<Sportsman> result)
+        {
+            int i = 1;
+            Console.WriteLine("Alg +");
+            foreach (Sportsman n in result)
+            {
+                richTextBox1.AppendText(i++ + "." + "\n");
+                richTextBox1.AppendText("Section: " + n.Section + "\n");
+                richTextBox1.AppendText("Visitor" + n.Visitor + "\n");
+                richTextBox1.AppendText("Name: " + n.Name + "\n");
+                richTextBox1.AppendText("Surname: " + n.Surname + "\n");
+                richTextBox1.AppendText("Faculty: " + n.Faculty + "\n");
+                richTextBox1.AppendText("Schedule :" + n.Schedule + "\n");
+                richTextBox1.AppendText("Competition" + n.Competition + "\n");
+                richTextBox1.AppendText("-------------------------------------------------\n");
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            Sportsman _sportsman = OurSportsman();
+            if (radioButton1.Checked)
+            {
+                IStrategy CurrentStrategy = new Linq(path);
+                result = CurrentStrategy.Algorithm(_sportsman, path);
+                Output(result);
+            }
+           if (radioButton2.Checked)
+            {
+                IStrategy CurrentStrategy = new Dom(path);
+                result = CurrentStrategy.Algorithm(_sportsman, path);
+                Output(result);
+
+            }
+            if (radioButton3.Checked)
+            {
+                IStrategy CurrentStrategy = new Sax(path);
+                result = CurrentStrategy.Algorithm(_sportsman, path);
+                Output(result);
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            XslCompiledTransform xslt = new XslCompiledTransform();
+            xslt.Load("XSL.xsl");
+            string input = @"DataBase.xml";
+            string result = @"information.html";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            checkBox3.Checked = false;
+            checkBox4.Checked = false;
+            checkBox5.Checked = false;
+            checkBox6.Checked = false;
+            checkBox7.Checked = false;
+            checkBox1.Text = null;
+            checkBox2.Text = null;
+            checkBox3.Text = null;
+            checkBox4.Text = null;
+            checkBox5.Text = null;
+            checkBox6.Text = null;
+            checkBox7.Text = null;
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            radioButton3.Checked = false;
+
+        }
+    }
+}
+*/
+			
+			
+			LIHQ
+			
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
+
+namespace Lab2
+{
+    class Linq : IStrategy
+    {
+        List<Sportsman> info = new List<Sportsman>();
+        XDocument doc = new XDocument();
+
+        public Linq(string path)
+        {
+            doc = XDocument.Load(path);
+        }
+
+        public List<Sportsman> Algorithm(Sportsman sportsman, string path)
+        {
+            List<XElement> match = (from val in doc.Descendants("sportsman")
+                                    where
+                                    ((sportsman.Section == null || sportsman.Section == val.Parent.Parent.Attribute("SECTION").Value) &&
+                                    (sportsman.Visitor == null || sportsman.Visitor == val.Parent.Attribute("VISITOR").Value) &&
+                                    (sportsman.Name == null || sportsman.Name == val.Attribute("NAME").Value) &&
+                                    (sportsman.Surname == null || sportsman.Surname == val.Attribute("SURNAME").Value) &&
+                                    (sportsman.Faculty == null || sportsman.Faculty == val.Attribute("FACULTY").Value) &&
+                                    (sportsman.Schedule == null || sportsman.Schedule == val.Attribute("SCHEDULE").Value) &&
+                                    (sportsman.Competition == null || sportsman.Competition == val.Attribute("COMPETITION").Value))
+                                    select val).ToList();
+            foreach (XElement obj in match)
+            {
+                Sportsman sportsman1 = new Sportsman();
+                sportsman1.Section = obj.Parent.Parent.Attribute("SECTION").Value;
+                sportsman1.Visitor = obj.Parent.Attribute("VISITOR").Value;
+                sportsman1.Name = obj.Attribute("NAME").Value;
+                sportsman1.Surname = obj.Attribute("SURNAME").Value;
+                sportsman1.Faculty = obj.Attribute("FACULTY").Value;
+                sportsman1.Schedule = obj.Attribute("SCHEDULE").Value;
+                sportsman1.Competition = obj.Attribute("COMPETITION").Value;
+                
+            }
+            return info;
+        }
+
+    }
+}
+
+			
+			DOM
+	using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace Lab2
+{
+    
+    class Dom : IStrategy
+    {
+        XmlDocument doc = new XmlDocument();
+
+        public Dom(string path)
+        {
+            doc.Load(path);
+        }
+
+        public List<Sportsman> Algorithm(Sportsman sportsman, string path)
+        {
+            List<List<Sportsman>> info = new List<List<Sportsman>>();
+           try
+            {
+                if (sportsman.Section != null) info.Add(SearchByParam("section", "SECTION", sportsman.Section, doc, 0));
+                if (sportsman.Visitor != null) info.Add(SearchByParam("visitor", "VISITOR", sportsman.Visitor, doc, 1));
+                if (sportsman.Name != null) info.Add(SearchByParam("name", "NAME", sportsman.Name, doc, 2));
+                if (sportsman.Surname != null) info.Add(SearchByParam("surname", "SURNAME", sportsman.Surname, doc, 2));
+                if (sportsman.Faculty != null) info.Add(SearchByParam("faculty", "FACULTY", sportsman.Faculty, doc, 2));
+                if (sportsman.Schedule != null) info.Add(SearchByParam("schedule", "SCHEDULE", sportsman.Schedule, doc, 2));
+                if (sportsman.Competition != null) info.Add(SearchByParam("competition", "COMPETITION", sportsman.Competition, doc, 2));
+
+            }
+            catch { }
+
+            return Cross(info);
+        }
+
+        public static Sportsman Info(XmlNode node)
+        {
+            Sportsman nw = new Sportsman();
+            nw.Section = node.ParentNode.ParentNode.Attributes.GetNamedItem("SECTION").Value;
+            nw.Visitor = node.ParentNode.Attributes.GetNamedItem("VISITOR").Value;
+            nw.Name = node.Attributes.GetNamedItem("NAME").Value;
+            nw.Surname = node.Attributes.GetNamedItem("SURNAME").Value;
+            nw.Faculty = node.Attributes.GetNamedItem("FACULTY").Value;
+            nw.Schedule = node.Attributes.GetNamedItem("SCHEDULE").Value;
+            nw.Competition = node.Attributes.GetNamedItem("COMPETITION").Value;
+            
+            return nw;
+        }
+
+        public static List<Sportsman> AllSportsmans(XmlDocument doc)
+        {
+            List<Sportsman> data2 = new List<Sportsman>();
+            XmlNodeList elem = doc.SelectNodes("//student");
+            try
+            {
+                foreach (XmlNode el in elem)
+                {
+                    data2.Add(Info(el));
+                }
+            }
+            catch { }
+            return data2;
+        }
+
+        public static List<Sportsman> SearchByParam(string nodename, string val, string param, XmlDocument doc, int n)
+        {
+            List<Sportsman> sportsmans = new List<Sportsman>();
+            if (string.IsNullOrWhiteSpace(param))
+            {
+                return sportsmans;
+            }
+            switch (n)
+            {
+                case 0:
+                    {
+                        XmlNodeList elem = doc.SelectNodes("//" + nodename + "[@" + val + "=\"" + param + "\"]");
+                        try
+                        {
+                            foreach (XmlNode e in elem)
+                            {
+                                XmlNodeList list1 = e.ChildNodes;
+                                foreach (XmlNode el in list1)
+                                {
+                                    XmlNodeList list2 = el.ChildNodes;
+                                    foreach (XmlNode el1 in list2)
+                                    {
+                                        sportsmans.Add(Info(el1));
+                                    }
+                                }
+                            }
+                        }
+                        catch { return sportsmans; }
+
+                        break;
+                    }
+                case 1:
+                    {
+                        XmlNodeList elem = doc.SelectNodes("//" + nodename + "[@" + val + "=\"" + param + "\"]");
+
+                        try
+                        {
+                            foreach (XmlNode e in elem)
+                            {
+                                XmlNodeList list1 = e.ChildNodes;
+                                foreach (XmlNode el in list1)
+                                {
+
+                                    sportsmans.Add(Info(el));
+
+                                }
+                            }
+                        }
+                        catch { return sportsmans; }
+                        break;
+                    }
+                case 2:
+                    {
+                        XmlNodeList elem = doc.SelectNodes("//" + nodename + "[@" + val + "=\"" + param + "\"]");
+                        try
+                        {
+                            foreach (XmlNode e in elem)
+                            {
+                                sportsmans.Add(Info(e));
+                            }
+                        }
+                        catch { return sportsmans; }
+                        break;
+                    }
+                default:
+                    {
+                        return sportsmans;
+                    }
+
+            }
+            return sportsmans;
+        }
+        public static List<Sportsman> Cross(List<List<Sportsman>> list)
+        {
+            List<Sportsman> result = new List<Sportsman>();
+            try
+            {
+                if (list != null)
+                {
+                    Sportsman[] st = list[0].ToArray();
+                    if (st != null)
+                    {
+                        foreach (Sportsman elem in st)
+                        {
+                            bool IsIn = true;
+                            foreach (List<Sportsman> t in list)
+                            {
+                                if (t.Count <= 0) return new List<Sportsman>();
+
+                                foreach (Sportsman s in t)
+                                {
+                                    IsIn = false;
+                                    if (elem.Comparing(s))
+                                    {
+                                        IsIn = true;
+                                        break;
+                                    }
+                                }
+                                if (!IsIn) break;
+                            }
+                            if (IsIn)
+                            {
+                                result.Add(elem);
+                            }
+                        }
+                    }
+                }
+            }
+            catch { }
+            return result;
+        }
+
+
+
+
+    }
+    
+}
+
+			
+			
+			SAX
+	using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
+
+namespace Lab2
+{
+    class Sax : IStrategy
+    {
+        XmlDocument doc = new XmlDocument();
+
+        public Sax(string path)
+        {
+            doc.Load(path);
+        }
+
+        public List<Sportsman> Algorithm(Sportsman sportsman, string path)
+        {
+            List<Sportsman> AllResult = new List<Sportsman>();
+            var xmlReader = new XmlTextReader(@"DataBase.xml");
+            while (xmlReader.Read())
+            {
+                if (xmlReader.HasAttributes)
+                {
+                    while (xmlReader.MoveToNextAttribute())
+                    {
+                        string Section = "";
+                        string Visitor = "";
+                        string Name = "";
+                        string Surname = "";
+                        string Faculty = "";
+                        string Schedule = "";
+                        string Competition = "";
+
+                        if (xmlReader.Name.Equals("Section") && (xmlReader.Value.Equals(sportsman.Section) || sportsman.Section.Equals(String.Empty)))
+                        {
+                            Section = xmlReader.Value;
+                            xmlReader.MoveToNextAttribute();
+                            if (xmlReader.Name.Equals("Visitor") && (xmlReader.Value.Equals(sportsman.Visitor) || sportsman.Visitor.Equals(String.Empty)))
+                            {
+                                Visitor = xmlReader.Value;
+                                xmlReader.MoveToNextAttribute();
+                                if (xmlReader.Name.Equals("Name") && (xmlReader.Value.Equals(sportsman.Name) || sportsman.Name.Equals(String.Empty)))
+                                {
+                                    Name = xmlReader.Value;
+                                    xmlReader.MoveToNextAttribute();
+                                    if (xmlReader.Name.Equals("Surname") && (xmlReader.Value.Equals(sportsman.Surname) || sportsman.Surname.Equals(String.Empty)))
+                                    {
+                                        Surname = xmlReader.Value;
+                                        xmlReader.MoveToNextAttribute();
+                                        if (xmlReader.Name.Equals("Faculty") && (xmlReader.Value.Equals(sportsman.Faculty) || sportsman.Faculty.Equals(String.Empty)))
+                                        {
+                                            Faculty = xmlReader.Value;
+                                            xmlReader.MoveToNextAttribute();
+                                            if (xmlReader.Name.Equals("Schedule") && (xmlReader.Value.Equals(sportsman.Schedule) || sportsman.Schedule.Equals(String.Empty)))
+                                            {
+                                                Schedule = xmlReader.Value;
+                                                xmlReader.MoveToNextAttribute();
+                                                if (xmlReader.Name.Equals("Competition") && (xmlReader.Value.Equals(sportsman.Competition) || sportsman.Competition.Equals(String.Empty)))
+                                                {
+                                                    Competition = xmlReader.Value;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        if (Section != "" && Visitor != "" && Name != "" && Surname != "" && Faculty != "" && Schedule != "" && Competition != "")
+                        {
+                            Sportsman mySportsman = new Sportsman();
+                            mySportsman.Section = Section;
+                            mySportsman.Visitor = Visitor;
+                            mySportsman.Name = Name;
+                            mySportsman.Surname = Surname;
+                            mySportsman.Faculty = Faculty;
+                            mySportsman.Schedule = Schedule;
+                            mySportsman.Competition = Competition;
+
+                            AllResult.Add(mySportsman);
+                        }
+                    }
+                    
+                }
+            }
+            xmlReader.Close();
+            return AllResult;
+        }
+
+       
+      
+
+    }
+}
+
+			SPORTSMAN
+	using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab2
+{
+    class Sportsman
+    {
+        public string Section = null;
+        public string Visitor = null;
+        public string Name = null;
+        public string Surname = null;
+        public string Faculty = null;
+        public string Schedule = null;
+        public string Competition = null;
+
+        public Sportsman() { }
+
+        public Sportsman(string[] data)
+        {
+            Section = data[0];
+            Visitor = data[0];
+            Name = data[1];
+            Surname = data[2];
+            Faculty = data[3];
+            Schedule = data[4];
+            Competition = data[5];
+        }
+        public Sportsman(IStrategy algo)
+        {
+            Section = String.Empty;
+            Visitor = String.Empty;
+            Name = String.Empty;
+            Surname = String.Empty;
+            Faculty = String.Empty;
+            Schedule = String.Empty;
+            Competition = String.Empty;
+        }
+
+        public bool Comparing(Sportsman sportsman)
+        {
+            if ((this.Section == sportsman.Section) &&
+                (this.Visitor == sportsman.Visitor) &&
+                (this.Name == sportsman.Name) &&
+                (this.Surname == sportsman.Surname) &&
+                (this.Faculty == sportsman.Faculty) &&
+                (this.Schedule == sportsman.Schedule) &&
+                (this.Competition == sportsman.Competition))
+                return true;
+            else return false;
+
+        }
+
+        public IStrategy Algo { get; set; }
+
+        public List<Sportsman> Algorithm(Sportsman param, string path)
+        {
+            return Algo.Algorithm(param, path);
+        }
+
+    }
+}
+
+			sTRATEGY
+	using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab2
+{
+    interface IStrategy
+    {
+        List<Sportsman> Algorithm(Sportsman p, string path);
+    }
+}
+
+			

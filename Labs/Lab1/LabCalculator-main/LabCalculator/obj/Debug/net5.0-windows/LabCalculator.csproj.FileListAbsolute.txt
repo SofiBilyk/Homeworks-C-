@@ -1,0 +1,38 @@
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\LabCalculator.exe
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\LabCalculator.deps.json
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\LabCalculator.runtimeconfig.json
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\LabCalculator.runtimeconfig.dev.json
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\LabCalculator.dll
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\ref\LabCalculator.dll
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\LabCalculator.pdb
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\bin\Debug\net5.0-windows\Antlr4.Runtime.dll
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorLexer.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorParser.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorListener.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorBaseListener.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorVisitor.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorBaseVisitor.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.Form1.resources
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.AssemblyInfo.cs
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.dll
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\ref\LabCalculator.dll
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.pdb
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.genruntimeconfig.cache
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\LabCalculator\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.Properties.Resources.resources
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.csproj.AssemblyReference.cache
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorLexer.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorParser.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorListener.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorBaseListener.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorVisitor.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculatorBaseVisitor.cs
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.csproj.Antlr4GeneratedCodeFileListAbsolute.txt
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.dll
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\ref\LabCalculator.dll
+D:\University\Programming\HW GITHUB\Labs\Lab1\LabCalculator-main\LabCalculator\obj\Debug\net5.0-windows\LabCalculator.pdb
