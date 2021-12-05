@@ -1,0 +1,10 @@
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.csproj.AssemblyReference.cache
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\bin\Debug\Lab2Sport.exe.config
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\bin\Debug\Lab2Sport.exe
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\bin\Debug\Lab2Sport.pdb
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.SportForm.resources
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.Properties.Resources.resources
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.csproj.GenerateResource.cache
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.csproj.CoreCompileInputs.cache
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.exe
+D:\University\Programming\HW GITHUB\Labs\Lab2Sport\obj\Debug\Lab2Sport.pdb

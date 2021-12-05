@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sportsmans>
+		<Sportsman Section = "Pool"
+				   Status = "Student"
+				   Name = "Viktoria"
+			   Surname = "Collins"
+				   Schedule = "Every day from 7 am to 9 pm"
+			   Competition = "23.09.21 - 25.09.21">
+		</Sportsman>
+		<Sportsman Section = "Pool"
+				   Status = "Professor"
+			       Name = "Linda"
+			   Surname = "Collins"
+			   Schedule = "Every day from 7 am to 9 pm"
+			   Competition = "23.09.21 - 25.09.21">
+		</Sportsman>
+		<Sportsman Section = "Pool"
+				   Status = "Student"
+			       Name = "Viktoria"
+			   Surname = "McCallen"
+			   Schedule = "Every day from 7 am to 9 pm"
+			   Competition = "23.09.21 - 25.09.21">
+		</Sportsman>
+
+		<Sportsman Section = "Box"
+				   Status = "Student"
+			       Name = "Mike"
+			   Surname = "McCallen"
+			   Schedule = "From 9 am to 5 pm on Wednesday and Monday"
+			   Competition = "12.12.21 - 15.12.21">
+		</Sportsman>
+		<Sportsman Section = "Box"
+				   Status = "Professor"
+			       Name = "Alex"
+			   Surname = "SorfVold"
+			   Schedule = "From 9 am to 5 pm on Wednesday and Monday"
+			   Competition = "12.12.21 - 15.12.21">
+		</Sportsman>
+		<Sportsman Section = "Box"
+				   Status = "Professor"
+			       Name = "John"
+			   Surname = "House"
+			   Schedule = "From 9 am to 5 pm on Wednesday and Monday"
+			   Competition = "12.12.21 - 15.12.21">
+		</Sportsman>
+
+		<Sportsman Section = "Dance"
+				   Status = "Professor"
+			       Name = "Sue"
+			       Surname = "House"
+			   Schedule = "From 12 pm to 9 pm on Wednesday, Friday and Monday"
+			   Competition = "11.11.21 - 15.11.21">
+		</Sportsman>
+		<Sportsman Section = "Dance"
+				   Status = "Student"
+			       Name = "Linda"
+			       Surname = "SorfVold"
+			   Schedule = "From 12 pm to 9 pm on Wednesday, Friday and Monday"
+			   Competition = "11.11.21 - 15.11.21">
+		</Sportsman>
+		<Sportsman Section = "Dance"
+				   Status = "Student"
+			       Name = "Nina"
+				   Surname = "Collins"
+			   Schedule = "From 12 pm to 9 pm on Wednesday, Friday and Monday"
+				   Competition = "11.11.21 - 15.11.21">
+		</Sportsman>
+
+</Sportsmans>

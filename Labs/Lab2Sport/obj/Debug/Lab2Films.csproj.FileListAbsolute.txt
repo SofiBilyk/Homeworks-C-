@@ -1,0 +1,10 @@
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\bin\Debug\Lab2Films.exe.config
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\bin\Debug\Lab2Films.exe
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\bin\Debug\Lab2Films.pdb
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.csproj.AssemblyReference.cache
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.FilmsForm.resources
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.Properties.Resources.resources
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.csproj.GenerateResource.cache
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.csproj.CoreCompileInputs.cache
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.exe
+C:\Users\Sonia\Desktop\Lab2Films-main\Lab2Films\obj\Debug\Lab2Films.pdb
